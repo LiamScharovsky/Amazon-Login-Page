@@ -1,0 +1,80 @@
+#header {
+    margin-bottom: 5%;
+}
+
+fieldset {
+    margin: 8px;
+    border: 1px solid silver;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#help {
+
+    margin: 4%;
+}
+
+.content {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+#pass {
+    margin-left: 14%;
+}
+
+#forgot {
+    margin-left: 45%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.newto {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.newto:before, .newto:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.newto:before {
+    margin-right: 10px
+}
+
+.newto:after {
+    margin-left: 10px
+}
+
+button {
+    width: 100%;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+}
+
+#create {
+    color: black;
+    width: 93%;
+    margin-left: 4%;
+}
+
+#footer_content {
+    font-size: smaller;
+
+}
+
+#last_note {
+    font-size: smaller;
+    text-align: center;
+}
